@@ -1,0 +1,16 @@
+PODS:
+  - HTBase (0.1.0)
+
+DEPENDENCIES:
+  - HTBase (from `../`)
+
+EXTERNAL SOURCES:
+  HTBase:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HTBase: bdcb43b959c5f35d266d3b317872e10a8037a48e
+
+PODFILE CHECKSUM: a9075ea1d963ec8856988f3c96ea86662fa4b7cd
+
+COCOAPODS: 1.4.0

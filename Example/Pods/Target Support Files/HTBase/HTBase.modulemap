@@ -1,0 +1,6 @@
+framework module HTBase {
+  umbrella header "HTBase-umbrella.h"
+
+  export *
+  module * { export * }
+}
