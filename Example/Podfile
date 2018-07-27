@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HTBase_Example' do
+  pod 'HTBase', :path => '../'
+
+  target 'HTBase_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
