@@ -13,6 +13,7 @@
 		7644527EAC63868DF0197BD302829301 /* Pods-HTBase_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 211D63A37D462CD643024B7551487419 /* Pods-HTBase_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E57512FCAFABA03ACD54F195012752F /* Pods-HTBase_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 957BF5D70183D488A59DF4069830DF15 /* Pods-HTBase_Example-dummy.m */; };
 		8F06BCFE7E9F538B10920D8FBCE03F6C /* Pods-HTBase_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE0209AA0E6961313F2644C1937F817 /* Pods-HTBase_Tests-dummy.m */; };
+		CE136713210AC4A000927A1A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CE136712210AC4A000927A1A /* ReplaceMe.m */; };
 		D4C70C6B230BCA9DB2D6365672ED89FE /* Pods-HTBase_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C81CE268B3F797129B27CCC2C7F79877 /* Pods-HTBase_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6954862B38DF155AADB0CA86E9D10D0 /* HTBase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1631DFBA29BF89676F35E3A29CD8CA13 /* HTBase-dummy.m */; };
 		FD112DE01DC76C0B706A8B188BE81B25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -56,6 +57,7 @@
 		C81CE268B3F797129B27CCC2C7F79877 /* Pods-HTBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTBase_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CA60944BA143DB35EC6A82B7B8B98022 /* Pods_HTBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2EB5027ACDE60174DE2D569E6EF75D /* Pods-HTBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HTBase_Tests.modulemap"; sourceTree = "<group>"; };
+		CE136712210AC4A000927A1A /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HTBase/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		D3432CD846C731A1F54E77E7E8C9751F /* HTBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTBase-prefix.pch"; sourceTree = "<group>"; };
 		D59053042497B7D8BB192E4920EB4033 /* Pods-HTBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6DBD7C73A72DC9BEDDFC0695B94697F /* HTBase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HTBase.modulemap; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 		2FDC863D105481FDAC4A0BEE474A2543 /* HTBase */ = {
 			isa = PBXGroup;
 			children = (
+				CE136712210AC4A000927A1A /* ReplaceMe.m */,
 				C4543E47A31ABD367CD9954566A3A227 /* Pod */,
 				302C0CF7A08E1443DC394E6D2F9AE90E /* Support Files */,
 			);
@@ -332,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE136713210AC4A000927A1A /* ReplaceMe.m in Sources */,
 				D6954862B38DF155AADB0CA86E9D10D0 /* HTBase-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
