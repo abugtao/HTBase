@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23475732A7460106516A6D190C5468F4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B155A2D69023A2BC03CEC031AACAE8 /* ReplaceMe.m */; };
 		33658DB9322475AA834709647F759AD2 /* HTBase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47FC9527AAE519B8F1BF674D36DE1B6F /* HTBase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3ADF8F662E0601241E5672024CD2E85E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		493C8A5CF989A5BA247270277E9E71AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
@@ -34,29 +33,28 @@
 		0ADD6DC247C93618A3718CB82B1BD365 /* Pods-HTBase_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HTBase_Example.modulemap"; sourceTree = "<group>"; };
 		14F1364C5C70506F1BD7DEBCCE67E1FF /* Pods-HTBase_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTBase_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1631DFBA29BF89676F35E3A29CD8CA13 /* HTBase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HTBase-dummy.m"; sourceTree = "<group>"; };
-		1CB12C44272B9BCE9DB8066B3E5905FA /* Pods_HTBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTBase_Example.framework; path = "Pods-HTBase_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CB12C44272B9BCE9DB8066B3E5905FA /* Pods_HTBase_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTBase_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE0209AA0E6961313F2644C1937F817 /* Pods-HTBase_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTBase_Tests-dummy.m"; sourceTree = "<group>"; };
 		211D63A37D462CD643024B7551487419 /* Pods-HTBase_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTBase_Example-umbrella.h"; sourceTree = "<group>"; };
-		245C3632F6CB07B82B6D261A87627665 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		245C3632F6CB07B82B6D261A87627665 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2FDBE12BA259E8FD5DF9596A260D19EB /* Pods-HTBase_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTBase_Example-frameworks.sh"; sourceTree = "<group>"; };
-		32B155A2D69023A2BC03CEC031AACAE8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HTBase/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		35D7CE9F9B87D3AC0C39949EEB314ECF /* Pods-HTBase_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTBase_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		3610846F16C308F6F68778C2154A7C57 /* Pods-HTBase_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HTBase_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		40FF0FA06CC13C344F6AB453B06E1E81 /* HTBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HTBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40FF0FA06CC13C344F6AB453B06E1E81 /* HTBase.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HTBase.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		47FC9527AAE519B8F1BF674D36DE1B6F /* HTBase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTBase-umbrella.h"; sourceTree = "<group>"; };
 		645C5304720C007F549DFE3E565DA7D6 /* Pods-HTBase_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTBase_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74944E64AD86D5633F80D220BC41EE56 /* HTBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HTBase.framework; path = HTBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74944E64AD86D5633F80D220BC41EE56 /* HTBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HTBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80DAB2E0724C9CF29FE14A8CDBFABEB7 /* Pods-HTBase_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTBase_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8FB8744619AF36F26A03B1DAEA09851C /* Pods-HTBase_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTBase_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		957BF5D70183D488A59DF4069830DF15 /* Pods-HTBase_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HTBase_Example-dummy.m"; sourceTree = "<group>"; };
 		A331981F52029B75855289CAB1D05E81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFA627C75769C5D42B264E57E2F5267F /* Pods-HTBase_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HTBase_Tests-resources.sh"; sourceTree = "<group>"; };
 		B211713232F472D9C904FFAE363EFE20 /* Pods-HTBase_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HTBase_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BBDDC70A4CC70881EB1698BDF62402C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BBDDC70A4CC70881EB1698BDF62402C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C81CE268B3F797129B27CCC2C7F79877 /* Pods-HTBase_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HTBase_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CA60944BA143DB35EC6A82B7B8B98022 /* Pods_HTBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HTBase_Tests.framework; path = "Pods-HTBase_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA60944BA143DB35EC6A82B7B8B98022 /* Pods_HTBase_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HTBase_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC2EB5027ACDE60174DE2D569E6EF75D /* Pods-HTBase_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HTBase_Tests.modulemap"; sourceTree = "<group>"; };
 		D3432CD846C731A1F54E77E7E8C9751F /* HTBase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HTBase-prefix.pch"; sourceTree = "<group>"; };
 		D59053042497B7D8BB192E4920EB4033 /* Pods-HTBase_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HTBase_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -116,7 +114,6 @@
 		2FDC863D105481FDAC4A0BEE474A2543 /* HTBase */ = {
 			isa = PBXGroup;
 			children = (
-				32B155A2D69023A2BC03CEC031AACAE8 /* ReplaceMe.m */,
 				C4543E47A31ABD367CD9954566A3A227 /* Pod */,
 				302C0CF7A08E1443DC394E6D2F9AE90E /* Support Files */,
 			);
@@ -336,7 +333,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6954862B38DF155AADB0CA86E9D10D0 /* HTBase-dummy.m in Sources */,
-				23475732A7460106516A6D190C5468F4 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
